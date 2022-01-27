@@ -21,12 +21,13 @@ CREATE TABLE products (
 	
 );
 
+
 #spring-boot
 clone this repository to your local disk
 
 set your application properties to connect your local database or server port 
 
-run as spring boot application (I'm using eclipse ide)
+run as spring boot application (I'm using eclipse IDE)
 
 #postman payloads examples
 
@@ -42,8 +43,10 @@ POST localhost:8080/product/save
     "isAvailable":false
 
 }
+
 #update
 PUT localhost:8080/product/update
+
 {
 
     "id":1,
@@ -55,11 +58,14 @@ PUT localhost:8080/product/update
     "isAvailable":false
 
 }
+
 #getall
 GET localhost:8080/product/getall
 
+
 #getone/{id}<-id number
 GET localhost:8080/product/getone/1
+
 
 #delete/{id} 
 DELETE localhost:8080/product/delete/1
