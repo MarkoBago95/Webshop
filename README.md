@@ -41,6 +41,7 @@ POST localhost:8080/product/save
 #update
 PUT localhost:8080/product/update
 {
+
     "id":1,
     "name":"Nike shoes",
     "code":"4567897891",
