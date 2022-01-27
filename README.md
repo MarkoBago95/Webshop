@@ -7,6 +7,8 @@
 CREATE DATABASE product;
 
 CREATE TABLE products (
+
+
 	id serial4 NOT NULL,
 	code varchar(10) NOT NULL,
 	name varchar(100) NOT NULL,
@@ -15,6 +17,8 @@ CREATE TABLE products (
 	description varchar(500) NOT NULL,
 	isavailable bool NOT NULL,
 	CONSTRAINT product_pkey PRIMARY KEY (id)
+	
+	
 );
 
 #spring-boot
