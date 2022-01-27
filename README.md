@@ -63,7 +63,7 @@ PUT localhost:8080/product/update
 GET localhost:8080/product/getall
 
 
-#getone/{id}<-id number
+#getone/{id}
 GET localhost:8080/product/getone/1
 
 
